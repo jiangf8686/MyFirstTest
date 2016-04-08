@@ -23,6 +23,7 @@ public abstract class CommonAdapter<T> extends BaseAdapter{
         mLayoutId = layoutId;
     }
 
+
     @Override
     public int getCount() {
         return mData.size();
